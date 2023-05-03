@@ -75,8 +75,9 @@ Ctrl + B T = Relógio
 Ctrl B Alt + 1 = Alterna para o primeiro layout (pode alternar de 0 a 4)
 ```
 
-<div id='ref'/>  
-## Referências
+<div id='ref'/>
+
+## Referências 
 - https://www.nerdfonts.com/
 - https://github.com/tmux/tmux
 - https://github.com/tmux-plugins/tpm
