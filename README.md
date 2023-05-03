@@ -7,6 +7,8 @@ Conteúdo
 
 *******
 
+_Este tutorial assume que o usuário está utilizando o Ubuntu ou qualquer distro debian. Mas pode ser adaptado facilmente de acordo com a necessidade._
+
 <div id='tmux'/>  
 
 ## Tmux 
