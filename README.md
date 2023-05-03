@@ -84,3 +84,5 @@ Ctrl B Alt + 1 = Alterna para o primeiro layout (pode alternar de 0 a 4)
 - https://github.com/tmux/tmux
 - https://github.com/tmux-plugins/tpm
 - https://github.com/dracula/tmux
+- https://draculatheme.com/tmux
+
