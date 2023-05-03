@@ -49,11 +49,11 @@ cd ~
 touch .tmux.conf
 ```
 
-6 - Usar algum editor de sua preferência e colar o conteúdo copiado anteriormente do ".tmux.conf". Em seguida, salvar o arquivo.
+6 - Usar algum editor de sua preferência e colar o conteúdo copiado anteriormente do ".tmux.conf". Em seguida, salvar o arquivo;
 
-7 - Nesse momento é necessário reuniciar o terminal;
+7 - Nesse momento é necessário reiniciar o terminal;
 
-8 - Em seguida, abrir o terminal e definir a "Nerd fonte" que você baixou, como a fonte padrão do seu terminal nas "preferências".
+8 - Em seguida, abrir o terminal e definir a "Nerd fonte" que você baixou, como a fonte padrão do seu terminal nas "preferências";
 
 9 - Você pode iniciar o tmux com o seguinte comando:
 ```bash
