@@ -36,7 +36,7 @@ Também é possível verificar se a "Fira Code Nerd Font" está instalada da seg
 fc-list | grep "Fira Code"
 ```
 
-4 - Copiar o conteúdo do arquivo .tmux.conf deste repositório;
+4 - Copiar o conteúdo do arquivo [.tmux.conf](https://github.com/davide-almeida/dotfiles/blob/main/.tmux.conf) deste repositório;
 
 5 - Acessar o diretório do seu usuário e criar um arquivo chamado ".tmux.conf":
 ```bash
