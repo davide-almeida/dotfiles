@@ -65,7 +65,7 @@ tmux
 tmux source ~/.tmux.conf
 ```
 
-Se tudo ocorreu como o esperado, agora você já pode está vendo o tmux, com esse visual:
+Se tudo ocorreu como o esperado, agora você já pode está vendo o tmux, com esse visual (dracula theme):
 ![image](https://user-images.githubusercontent.com/85287720/235815575-c2f8429d-6697-492f-8539-873b6c1215b9.png)
 
 
