@@ -32,7 +32,7 @@ unzip ~/.fonts/FiraCode.zip -d ~/.fonts
 ```bash
 fc-cache -fv
 ```
-Se deu tudo certo, você verá uma mensagem de sucesso.
+Se deu tudo certo, será exibida uma mensagem de sucesso.
 
 Também é possível verificar se a "Fira Code Nerd Font" está instalada da seguinte forma:
 ```bash
