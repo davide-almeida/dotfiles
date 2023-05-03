@@ -55,9 +55,14 @@ touch .tmux.conf
 
 8 - Em seguida, abrir o terminal e definir a "Nerd fonte" que você baixou, como a fonte padrão do seu terminal nas "preferências";
 
-9 - Você pode iniciar o tmux com o seguinte comando:
+9 - Inicie o tmux com o seguinte comando:
 ```bash
 tmux
+```
+
+10 - Para se certificar de que o arquivo de configuração será carregado, você pode rodar o seguinte comando:
+``bash
+tmux source ~/.tmux.conf
 ```
 
 10 - Alguns comandos básicos do tmux:
