@@ -3,6 +3,7 @@
 *******
 Conteúdo
  1. [Tmux](#tmux)
+ 2. [Referências](#ref)
 
 *******
 
@@ -73,3 +74,10 @@ Ctrl + B , = Renomear janela
 Ctrl + B T = Relógio
 Ctrl B Alt + 1 = Alterna para o primeiro layout (pode alternar de 0 a 4)
 ```
+
+<div id='tmux'/>  
+## Referências
+- https://www.nerdfonts.com/
+- https://github.com/tmux/tmux
+- https://github.com/tmux-plugins/tpm
+- https://github.com/dracula/tmux
