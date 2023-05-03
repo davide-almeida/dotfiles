@@ -61,25 +61,29 @@ tmux
 ```
 
 10 - Para se certificar de que o arquivo de configuração será carregado, você pode rodar o seguinte comando:
-``bash
+```bash
 tmux source ~/.tmux.conf
 ```
 
-10 - Alguns comandos básicos do tmux:
+Se tudo ocorreu como o esperado, agora você já pode está vendo o tmux, com esse visual:
+![image](https://user-images.githubusercontent.com/85287720/235815575-c2f8429d-6697-492f-8539-873b6c1215b9.png)
+
+
+11 - Alguns comandos básicos do tmux:
 ```bash
 Ctrl + B ? = Help
 
-Ctrl + B O = alternar entre as "janelas" abertas
-Ctrl + B Q = exibe os números de cada janela
-Ctrl + B " = cria um novo painel na vertical
-Ctrl + B % = cria um novo painel na horizontal
-Ctrl + B Z = zoon-in zoom-out na janela ativa
-Ctrl + D = Fecha a janela selecionada
-Ctrl + B : = abre a parte de comandos
-Ctrl + B W = Alternar entre sessões
-Ctrl + B , = Renomear janela
-Ctrl + B T = Relógio
-Ctrl B Alt + 1 = Alterna para o primeiro layout (pode alternar de 0 a 4)
+Ctrl + b o = alternar entre as "janelas" abertas
+Ctrl + b q = exibe os números de cada janela
+Ctrl + b " = cria um novo painel na vertical
+Ctrl + b % = cria um novo painel na horizontal
+Ctrl + b z = zoon-in zoom-out na janela ativa
+Ctrl + d = Fecha a janela selecionada
+Ctrl + b : = abre a parte de comandos
+Ctrl + b w = Alternar entre sessões
+Ctrl + b , = Renomear janela
+Ctrl + b t = Relógio
+Ctrl b Alt + 1 = Alterna para o primeiro layout (pode alternar de 0 a 4)
 ```
 
 <div id='ref'/>
