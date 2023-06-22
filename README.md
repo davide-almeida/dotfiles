@@ -80,7 +80,7 @@ Se tudo ocorreu como o esperado, agora você já pode está vendo o tmux, com es
 | painel | Contém um terminal |
 
 
-#### Sessões
+### Sessões
 | **Comando** | **Definição** |
 | :---- | :------------------ |
 | Ctrl + b n | Vai para a próxima sessão |
@@ -90,14 +90,24 @@ Se tudo ocorreu como o esperado, agora você já pode está vendo o tmux, com es
 | Ctrl + b ) | Vai para a próxima sessão |
 | Ctrl + b ( | Vai para a sessão anterior |
 
-
-Criando uma sessão:
+**Criando uma sessão:**
 | **Comando** | **Definição** |
 | :---- | :------------------ |
 | Ctrl + b : | Abre o prompt de comandos do Tmux |
 | new-session -s *<nome-da-sessão>* | Digitar esse comando no prompt do tmux, trocando o *<nome-da-sessão>* pelo nome que a nova sessão terá |
 
-#### Janelas
+**Fechando o terminal sem perder a sessão:**
+| **Comando** | **Definição** |
+| :---- | :------------------ |
+| Ctrl + b : | Abre o prompt de comandos do Tmux |
+| :detach-client | Ao digitar esse comando e pressionar "Enter" você será "desanexado" da sessão e pode fechar o terminal sem perder a sessão |
+
+**Entrando em uma sessão a qual você está desanexado:**
+| **Comando** | **Definição** |
+| :---- | :------------------ |
+| tmux attach | Entrará na última sessão a qual você foi desanexado |
+
+### Janelas
 | **Comando** | **Definição** |
 | :---- | :------------------ |
 | Ctrl + b c | Cria uma nova janela dentro da sessão atual |
@@ -106,7 +116,7 @@ Criando uma sessão:
 | Ctrl + b p | Vai para a janela anterior |
 | Ctrl + d | Fecha a janela selecionada |
 
-#### Paineis
+### Paineis
 | **Comando** | **Definição** |
 | :---- | :------------------ |
 | Ctrl + b " | cria um novo painel na vertical |
@@ -117,7 +127,7 @@ Criando uma sessão:
 | Ctrl + b o | alternar entre os paineis abertos |
 | Ctrl + b z | zoon-in zoom-out no painel ativo |
 
-#### CopyMode - Busca
+### CopyMode - Busca
 | **Comando** | **Definição** |
 | :---- | :------------------ |
 | Ctrl + b [ | Entra no CopyMode |
@@ -126,7 +136,7 @@ Criando uma sessão:
 | N | Vai para a ocorrência anterior |
 | q | Sai do CopyMode |
 
-#### Outros
+### Outros
 | **Comando** | **Definição** |
 | :---- | :------------------ |
 | Ctrl + B ? | Help |
