@@ -69,22 +69,70 @@ Se tudo ocorreu como o esperado, agora você já pode está vendo o tmux, com es
 ![image](https://user-images.githubusercontent.com/85287720/235815575-c2f8429d-6697-492f-8539-873b6c1215b9.png)
 
 
-11 - Alguns comandos básicos do tmux:
-```bash
-Ctrl + B ? = Help
+11 - Conceitos e comandos básicos:
 
-Ctrl + b o = alternar entre as "janelas" abertas
-Ctrl + b q = exibe os números de cada janela
-Ctrl + b " = cria um novo painel na vertical
-Ctrl + b % = cria um novo painel na horizontal
-Ctrl + b z = zoon-in zoom-out na janela ativa
-Ctrl + d = Fecha a janela selecionada
-Ctrl + b : = abre a parte de comandos
-Ctrl + b w = Alternar entre sessões
-Ctrl + b , = Renomear janela
-Ctrl + b t = Relógio
-Ctrl b Alt + 1 = Alterna para o primeiro layout (pode alternar de 0 a 4)
-```
+`sessão > janela > painel`
+
+| **#** | **Definição** |
+| :----: | :------------------: |
+| sessão | Um grupo de janelas |
+| janela | Um grupo de paineis |
+| painel | Contém um terminal |
+
+
+#### Sessões
+| **Comando** | **Definição** |
+| :---- | :------------------ |
+| Ctrl + b n | Vai para a próxima sessão |
+| Ctrl + b p | Vai para a sessão anterior |
+| Ctrl + b w | Alternar entre sessões |
+| Ctrl + d | Fecha a janela selecionada e se ela for a última janela da sessão, fechará a sessão também |
+| Ctrl + b ) | Vai para a próxima sessão |
+| Ctrl + b ( | Vai para a sessão anterior |
+
+
+Criando uma sessão:
+| **Comando** | **Definição** |
+| :---- | :------------------ |
+| Ctrl + b : | Abre o prompt de comandos do Tmux |
+| new-session -s *<nome-da-sessão>* | Digitar esse comando no prompt do tmux, trocando o *<nome-da-sessão>* pelo nome que a nova sessão terá |
+
+#### Janelas
+| **Comando** | **Definição** |
+| :---- | :------------------ |
+| Ctrl + b c | Cria uma nova janela dentro da sessão atual |
+| Ctrl + b , | Renomeia a janela atual |
+| Ctrl + b n | Vai para a próxima janela |
+| Ctrl + b p | Vai para a janela anterior |
+| Ctrl + d | Fecha a janela selecionada |
+
+#### Paineis
+| **Comando** | **Definição** |
+| :---- | :------------------ |
+| Ctrl + b " | cria um novo painel na vertical |
+| Ctrl + b % | cria um novo painel na horizontal |
+| Ctrl b Alt + *1* | Alterna para o para o primeiro layout *(pode alternar de 0 a 4)* |
+| Ctrl + b q | Exibe o número referente a cada painel |
+| Ctrl + b q *<número>* | Vai para o painel referente ao número digitado |
+| Ctrl + b o | alternar entre os paineis abertos |
+| Ctrl + b z | zoon-in zoom-out no painel ativo |
+
+#### CopyMode - Busca
+| **Comando** | **Definição** |
+| :---- | :------------------ |
+| Ctrl + b [ | Entra no CopyMode |
+| Ctrl + r *<palavra>* | Busca a palavra digitada |
+| n | Vai para a próxima ocorrência da busca |
+| N | Vai para a ocorrência anterior |
+| q | Sai do CopyMode |
+
+#### Outros
+| **Comando** | **Definição** |
+| :---- | :------------------ |
+| Ctrl + B ? | Help |
+| Ctrl + b : | abre o prompt de comandos do tmux |
+| Ctrl + b t | Relógio |
+
 
 <div id='ref'/>
 
