@@ -136,11 +136,20 @@ Se tudo ocorreu como o esperado, agora você já pode está vendo o tmux, com es
 | N | Vai para a ocorrência anterior |
 | q | Sai do CopyMode |
 
+**Copiar alguma string do terminal:**
+| **Comando** | **Definição** |
+| :---- | :------------------ |
+| Ctrl + b [ | abre o copy mode |
+| Ctrl + r <palavra> | busca palavra |
+| Ctrl + space | modo de seleção |
+| Ctrl + w | Copia o que estiver selecionado e sai do copy mode |
+
 ### Outros
 | **Comando** | **Definição** |
 | :---- | :------------------ |
 | Ctrl + B ? | Help |
 | Ctrl + b : | abre o prompt de comandos do tmux |
+| source-file ~/.tmux.conf | rodar o .tmux.conf (deve ser executado no prompt do tmux) |
 | Ctrl + b t | Relógio |
 
 
