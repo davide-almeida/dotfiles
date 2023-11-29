@@ -24,7 +24,7 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 3 - Baixar e instalar uma NerdFont. _(No meu caso, costumo usar a Fira Code Nerd Font e ela pode ser encontrada [aqui](https://www.nerdfonts.com/))_
 ```bash
-wget -P ~/.fonts https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/FiraCode.zip
+wget -P ~/.fonts https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/FiraCode.zip
 ```
 ```bash
 unzip ~/.fonts/FiraCode.zip -d ~/.fonts
