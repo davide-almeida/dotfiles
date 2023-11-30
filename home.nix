@@ -10,6 +10,7 @@
     ruby_3_2
     gnumake
     neovim
+    gcc
   ];
 
   home.file = {
