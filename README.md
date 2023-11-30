@@ -12,7 +12,7 @@ _Este tutorial assume que o usuário está utilizando o Ubuntu ou qualquer distr
 <div id='tmux'/>  
 
 ## Tmux 
-2. Instalar o Tmux
+1. Instalar o Tmux
 ```bash
 sudo apt install tmux
 ```
