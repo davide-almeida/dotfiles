@@ -12,17 +12,17 @@ _Este tutorial assume que o usuário está utilizando o Ubuntu ou qualquer distr
 <div id='tmux'/>  
 
 ## Tmux 
-1 - Instalar o Tmux
+2. Instalar o Tmux
 ```bash
 sudo apt install tmux
 ```
 
-2 - Instalar o TPM (Tmux Plugin Manager):
+2. Instalar o TPM (Tmux Plugin Manager):
 ```bash
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
 
-3 - Baixar e instalar uma NerdFont. _(No meu caso, costumo usar a Fira Code Nerd Font e ela pode ser encontrada [aqui](https://www.nerdfonts.com/))_
+3. Baixar e instalar uma NerdFont. _(No meu caso, costumo usar a Fira Code Nerd Font e ela pode ser encontrada [aqui](https://www.nerdfonts.com/))_
 ```bash
 wget -P ~/.fonts https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/FiraCode.zip
 ```
@@ -39,9 +39,9 @@ Também é possível verificar se a "Fira Code Nerd Font" está instalada da seg
 fc-list | grep "Fira Code"
 ```
 
-4 - Copiar o conteúdo do arquivo [.tmux.conf](https://github.com/davide-almeida/dotfiles/blob/main/.tmux.conf) deste repositório;
+4. Copiar o conteúdo do arquivo [.tmux.conf](https://github.com/davide-almeida/dotfiles/blob/main/.tmux.conf) deste repositório;
 
-5 - Acessar o diretório do seu usuário e criar um arquivo chamado ".tmux.conf":
+5. Acessar o diretório do seu usuário e criar um arquivo chamado ".tmux.conf":
 ```bash
 cd ~
 ```
@@ -49,27 +49,31 @@ cd ~
 touch .tmux.conf
 ```
 
-6 - Usar algum editor de sua preferência e colar o conteúdo copiado anteriormente do ".tmux.conf". Em seguida, salvar o arquivo;
+6. Usar algum editor de sua preferência e colar o conteúdo copiado anteriormente do ".tmux.conf". Em seguida, salvar o arquivo;
 
-7 - Nesse momento é necessário reiniciar o terminal;
+7. Nesse momento é necessário reiniciar o terminal;
 
-8 - Em seguida, abrir o terminal e definir a "Nerd fonte" que você baixou, como a fonte padrão do seu terminal nas "preferências";
+8. Em seguida, abrir o terminal e definir a "Nerd fonte" que você baixou, como a fonte padrão do seu terminal nas "preferências";
 
-9 - Inicie o tmux com o seguinte comando:
+9. Inicie o tmux com o seguinte comando:
 ```bash
 tmux
 ```
 
-10 - Para se certificar de que o arquivo de configuração será carregado, você pode rodar o seguinte comando:
+10. Para se certificar de que o arquivo de configuração será carregado, você pode rodar o seguinte comando:
 ```bash
 tmux source ~/.tmux.conf
+```
+
+11. Instalar os plugins listados:
+```bash
+Ctrl+a I
 ```
 
 Se tudo ocorreu como o esperado, agora você já pode está vendo o tmux, com esse visual _(dracula theme)_:
 ![image](https://user-images.githubusercontent.com/85287720/235815575-c2f8429d-6697-492f-8539-873b6c1215b9.png)
 
-
-11 - Conceitos e comandos básicos:
+12. Conceitos e comandos básicos:
 
 `sessão > janela > painel`
 
