@@ -9,6 +9,7 @@
   home.packages = with pkgs; [
     ruby_3_2
     gnumake
+    neovim
   ];
 
   home.file = {
