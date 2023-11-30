@@ -7,8 +7,8 @@
   home.stateVersion = "23.11";
 
   home.packages = with pkgs; [
-   ruby_3_2
-
+    ruby_3_2
+    gnumake
   ];
 
   home.file = {
