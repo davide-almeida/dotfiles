@@ -12,6 +12,7 @@
     neovim
     gcc
     fzf
+    ripgrep
   ];
 
   home.file = {
