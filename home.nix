@@ -11,6 +11,7 @@
     gnumake
     neovim
     gcc
+    fzf
   ];
 
   home.file = {
